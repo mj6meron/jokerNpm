@@ -1,0 +1,28 @@
+{
+  "name": "jokernpm",
+  "version": "1.0.0",
+  "description": "simple joke generator backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mj6meron/jokerNpm.git"
+  },
+  "author": "Meron Habtemichael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mj6meron/jokerNpm/issues"
+  },
+  "homepage": "https://github.com/mj6meron/jokerNpm#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "one-liner-joke": "^1.2.2"
+  }
+}
